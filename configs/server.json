@@ -1,0 +1,40 @@
+﻿{
+  "Relay": {
+    "SecretKey": "LP",
+    "Distributed": {
+      "Node": {
+        "Id": "1B0F0B91-F574-4269-BB83-F82AFC6E735C",
+        "Name": "app-center-50174453-0818-agbb6m3",
+        "Host": "",
+        "MaxConnection": 100,
+        "MaxBandwidth": 1,
+        "MaxBandwidthTotal": 0,
+        "MaxGbTotal": 0,
+        "MaxGbTotalLastBytes": 0,
+        "MaxGbTotalMonth": 1,
+        "Public": false,
+        "MasterHost": "",
+        "MasterSecretKey": ""
+      },
+      "Master": {
+        "SecretKey": "LP"
+      }
+    }
+  },
+  "ServicePort": 7860,
+  "SForward": {
+    "SecretKey": "LP",
+    "BufferSize": 3,
+    "WebPort": 0,
+    "TunnelPortRange": [
+      10000,
+      60000
+    ]
+  },
+  "SignIn": {
+    "SecretKey": ""
+  },
+  "Updater": {
+    "SecretKey": "LP"
+  }
+}

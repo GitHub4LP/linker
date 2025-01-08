@@ -1,0 +1,15 @@
+﻿{
+  "Modes": [
+    "server"
+  ],
+  "Install": false,
+  "LoggerType": 2,
+  "LoggerSize": 100,
+  "SSL": {
+    "File": "./snltty.pfx",
+    "Password": "oeq9tw1o"
+  },
+  "UpdateUrl": "https://static.qbcode.cn/downloads/linker",
+  "UpdateIntervalSeconds": 60,
+  "CheckUpdate": true
+}
